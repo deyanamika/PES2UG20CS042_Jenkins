@@ -15,7 +15,7 @@ pipeline {
     }
     stage('Deploy') {
           steps {
-            sh 'echo "Deployment Successful"'
+            sh 'echo "Deployment Successful"
             
           }
     }
@@ -25,4 +25,4 @@ pipeline {
       echo 'Pipeline failed'
     }
   }
-
+}
